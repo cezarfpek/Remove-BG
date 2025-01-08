@@ -76,7 +76,7 @@ def main():
         
         with col1:
             st.subheader("Original Image")
-            st.image(input_image, use_column_width=True)
+            st.image(input_image, use_container_width=True)
         
         # Remove background
         try:
@@ -86,7 +86,7 @@ def main():
             # Display processed image
             with col2:
                 st.subheader("Processed Image")
-                st.image(output_image, use_column_width=True)
+                st.image(output_image, use_container_width=True)
             
             # Download button for processed image
             buffered = io.BytesIO()
@@ -94,7 +94,7 @@ def main():
             img_byte = buffered.getvalue()
             
             st.download_button(
-                label="Download Image",
+                label="Download processed image",
                 data=img_byte,
                 file_name="processed_image.png",
                 mime="image/png",
