@@ -44,6 +44,7 @@ def main():
     # App title and description
     st.title("🖼️ Background Removal App")
     st.write("Upload an image, remove its background, and optionally replace it with a custom color!")
+    st.write("Great for linkedIn profile pictures!")
     
     # File uploader
     uploaded_file = st.file_uploader(
