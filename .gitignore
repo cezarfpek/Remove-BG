@@ -1,2 +1,10 @@
 
 /venv/bin
+venv/etc/jupyter/nbconfig/notebook.d/pydeck.json
+venv/lib/python3.11/site-packages/.DS_Store
+venv/lib/python3.11/site-packages/__pycache__/six.cpython-311.pyc
+templates/index.html
+app.py
+uploads/749A0561.jpg
+uploads/749A9521.jpg
+uploads/749A9528.jpg
